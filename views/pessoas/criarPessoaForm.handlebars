@@ -1,0 +1,18 @@
+<h1 class=" mt-4 text-primary">Criar Pessoa</h1>
+<form method="POST" action="/pessoas/criarPessoa" class="mt-2 mb-1">
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" name="nome" placeholder="Nome">
+    </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col">
+      <input type="date" class="form-control" name="nascimento">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" name="cargo" placeholder="Cargo">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg btn-block mt-3">Submit</button>
+</form>
+<a type="button" class="btn btn-dark btn-lg btn-block" href="/pessoas/">Voltar</a>
